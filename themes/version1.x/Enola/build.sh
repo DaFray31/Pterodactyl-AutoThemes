@@ -17,7 +17,7 @@ set -e
 
 SCRIPT_VERSION="v0.8.8"
 SUPPORT_LINK="https://discord.gg/buDBbSGJmQ"
-PTERO="/var/www/pterodactyl"
+PTERO="/app"
 
 
 print_brake() {
@@ -82,9 +82,9 @@ echo -e "* ${GREEN}Looking for your pterodactyl installation...${reset}"
 print_brake 47
 echo
 sleep 2
-if [ -d "/var/www/pterodactyl" ]; then
+if [ -d "/app" ]; then
     PTERO_INSTALL=true
-    PTERO="/var/www/pterodactyl"
+    PTERO="/app"
   elif [ -d "/var/www/panel" ]; then
     PTERO_INSTALL=true
     PTERO="/var/www/panel"

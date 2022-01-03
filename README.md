@@ -20,7 +20,7 @@ If you have any problems with the script, ask for support in our official group 
 Just run the following command as root user.
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/main/install.sh)
 ```
 ## Attention!
 *Do not run the command using sudo.*

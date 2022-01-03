@@ -100,14 +100,14 @@ echo
 print_brake 32
 echo -e "* ${GREEN}Performing security backup...${reset}"
 print_brake 32
-if [ -f "/var/www/pterodactyl/PanelBackup/PanelBackup.zip" ]; then
+if [ -f "/app/PanelBackup/PanelBackup.zip" ]; then
 echo
 print_brake 45
 echo -e "* ${GREEN}There is already a backup, skipping step...${reset}"
 print_brake 45
 echo
 else
-cd /var/www/pterodactyl
+cd /app
 mkdir -p PanelBackup
 zip -r PanelBackup.zip app config public resources routes storage database .env
 mv PanelBackup.zip PanelBackup
@@ -121,15 +121,15 @@ download_files() {
 print_brake 25
 echo -e "* ${GREEN}Downloading files...${reset}"
 print_brake 25
-cd /var/www/pterodactyl
+cd /app
 mkdir -p temp
 cd temp
 curl -sSLo NothingButGraphite.tar.gz https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version0.7.19/NothingButGraphite/NothingButGraphite.tar.gz
 tar -xzvf NothingButGraphite.tar.gz
 cd NothingButGraphite
-cp -rf -- * /var/www/pterodactyl
+cp -rf -- * /app
 cd
-cd /var/www/pterodactyl
+cd /app
 rm -rf temp
 }
 

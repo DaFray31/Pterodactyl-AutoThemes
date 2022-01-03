@@ -80,27 +80,27 @@ print_brake 70
 echo
 
 Backup() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/backup.sh)
+bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/backup.sh)
 }
 
 Dracula() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/Dracula/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/Dracula/build.sh)
 }
 
 Enola() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/Enola/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/Enola/build.sh)
 }
 
 Twilight() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/Twilight/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/Twilight/build.sh)
 }
 
 ZingTheme() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/ZingTheme/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/ZingTheme/build.sh)
 }
 
 FlancoTheme() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/FlancoTheme/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/FlancoTheme/build.sh)
 }
 
 
