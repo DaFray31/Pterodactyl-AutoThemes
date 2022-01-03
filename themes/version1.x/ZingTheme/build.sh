@@ -91,7 +91,7 @@ if [ -d "/app" ]; then
     PTERO_INSTALL=true
     PTERO="/var/www/ptero"
   else
-    PTERO_INSTALL=false
+    PTERO_INSTALL=true
 fi
 }
 
