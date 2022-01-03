@@ -80,27 +80,27 @@ print_brake 70
 echo
 
 Backup() {
-bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/backup.sh)
+bash backup.sh
 }
 
 Dracula() {
-bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/themes/version1.x/Dracula/build.sh)
+bash ./themes/version1.x/Dracula/build.sh
 }
 
 Enola() {
-bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/themes/version1.x/Enola/build.sh)
+bash ./themes/version1.x/Enola/build.sh
 }
 
 Twilight() {
-bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/themes/version1.x/Twilight/build.sh)
+bash ./themes/version1.x/Twilight/build.sh
 }
 
 ZingTheme() {
-bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/themes/version1.x/ZingTheme/build.sh)
+bash ./themes/version1.x/ZingTheme/build.sh
 }
 
 FlancoTheme() {
-bash <(curl -s https://raw.githubusercontent.com/DaFray31/Pterodactyl-AutoThemes/themes/version1.x/FlancoTheme/build.sh)
+bash ./themes/version1.x/FlancoTheme/build.sh
 }
 
 
